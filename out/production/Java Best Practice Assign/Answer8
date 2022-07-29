@@ -1,0 +1,4 @@
+
+>Yes, we can catch "Throwable" in java but its not a good practice.
+>You need to be as specific as possible while catching exceptions[i.e FileNotFoundException,illegalArgumentException,IOException]
+>if you catch Throwable, use it as safety measure,not as your PRIMARY EXCEPTION handling code.

@@ -1,0 +1,12 @@
+
+Best way to check if string is empty or not is to use length() method. This method simply return the count of characters inside char array which constitutes the string. If the count or length is 0; you can safely conclude that string is empty.
+
+public boolean isEmpty(String str)
+{
+    return str.equals("");        //NEVER do this
+}
+
+public boolean isEmpty(String str)
+{
+    return str.length()==0;        //Correct way to check empty
+}
